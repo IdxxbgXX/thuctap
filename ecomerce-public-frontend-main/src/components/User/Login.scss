@@ -1,0 +1,64 @@
+.login {
+    width: 400px;
+    min-height: 200px;
+    margin-top: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+
+    .login-title {
+        font-size: 40px;
+        font-weight: bold;
+        margin: 18px 0;
+    }
+}
+
+.input-title {
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+.login-input {
+    padding: 8px;
+    font-size: 16px;
+}
+
+.btn-login {
+    font-size: 16px;
+    padding: 6px 20px;
+    border-radius: 8px;
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+
+.custom-file {
+    margin: 20px 0;
+}
+
+.custom-file-item {
+    position: absolute;
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ced4da;
+    border-radius: 2px;
+
+    &::after {
+        content: "Browse";
+        position: absolute;
+        right: 0;
+        padding: 0 8px;
+        border-left: 1px solid #ced4da;
+    }
+}
+
+.choose-avartar {
+    img {
+        width: 140px;
+        height: 140px;
+        margin-bottom: 10px;
+    }
+}
+
+.error {
+    color: red;
+}
